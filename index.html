@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="footer.css">
+    <title>KnightCoders</title>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()" aria-hidden="true"></i>
+                <ul>
+                    <li><a href="index.html"><img  class="logo" style="align-self: left;" src="images/logo (1).svg"></a></li>
+                    <li><a href="/" style="text-decoration-color: #fff;">Home</a> </li>
+                    <li><a href="about.html">About</a> </li>
+                    <li><a href="service.html">Services</a> </li>
+                    <li><a href="contacts.html">Contact</a> </li>
+                    <li><a href="signin.html">Sign in</a> </li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()" aria-hidden="true"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Make your ideas come to life with us</h1>
+            <p>we believe in Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Voluptatibus illo quasi,
+                dolorem quod neque omnis quidem explicabo ipsam assumenda elig</p>
+        </div>
+    </section>
+
+    <!-- /* ---Journey Section--- */ -->
+   
+
+    <section class="service">
+        <div class="container px-5 mx-auto">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4 text-center">What do we do</h1>
+        </div>
+        <div class="row">
+            <div class="service-col col-md-3">
+                <img src="images/idea.jpeg" alt="">
+                <div class="layer">
+                    <h3>Idea</h3>
+                </div>
+
+            </div>
+            <div class="service-col col-md-3">
+                <img src="images/design.jpeg" alt="">
+                <div class="layer">
+                    <h3>Design</h3>
+                </div>
+
+            </div>
+            <div class="service-col col-md-3">
+                <img src="images/development.jpeg" alt="">
+                <div class="layer">
+                    <h3>Development</h3>
+                </div>
+
+            </div>
+            <div class="service-col col-md-3">
+                <img src="images/maintainance.jpeg" alt="">
+                <div class="layer">
+                    <h3>Maintainance</h3>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+          <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center ">
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Build with the world’s 
+              <br class="hidden lg:inline-block">most intuitive platform
+            </h1>
+            <p class="mb-8 leading-relaxed">Create better websites with mobile-responsive templates, seamless drag & drop and unlimited customization.</p>
+            <div class="flex justify-center">
+              <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Start Now</button>
+              
+            </div>
+          </div>
+          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+            <img class="object-cover object-center rounded" alt="hero" src="images/website.jpeg">
+          </div>
+        </div>
+      </section>
+
+      <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+            <img class="object-cover object-center rounded" alt="hero" src="images/app.jpeg">
+          </div>
+          <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center ">
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Manage your brand 
+              <br class="hidden lg:inline-block">from one place
+            </h1>
+            <p class="mb-8 leading-relaxed">Sell your products or services, start a blog and make smart decisions with clear analytics.</p>
+            <div class="flex justify-center">
+              <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Start Now</button>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+          <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center ">
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Grow your online 
+              <br class="hidden lg:inline-block">presence
+            </h1>
+            <p class="mb-8 leading-relaxed">Boost traffic and increase engagement with built-in SEO tools, Facebook ads, email marketing and social posts.</p>
+            <div class="flex justify-center">
+              <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Start Now</button>
+              
+            </div>
+          </div>
+          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+            <img class="object-cover object-center rounded" alt="hero" src="images/online-presence.jpeg">
+          </div>
+        </div>
+      </section>
+
+      
+
+    <hr>
+
+    <!-- ---Expertise--- -->
+
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4 text-center">Our Technical Expertise</h1>
+            <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s text-center mb-20">We specialize in developing websites, android applications and machine learning based projects and solutions. Our aim is to build profitable digital products engineered to spark creativity and boost Return on investment(ROI).</p>
+            <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+                <div class="p-4 md:w-1/3 flex">
+                    <div
+                        class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4 flex-shrink-0">
+                        
+                    </div>
+                    <div class="flex-grow pl-6">
+                        <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Design</h2>
+                        <p class="leading-relaxed text-base">We ensure that our client’s website and applicaition is responsive on every device, so that no single customer is lost. Our responsive website responds to the user’s behavior and environment based on screen size, platform, & orientation.</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="p-4 md:w-1/3 flex">
+                    <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4 flex-shrink-0">
+                        
+                    </div>
+                    <div class="flex-grow pl-6">
+                        <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Development</h2>
+                        <p class="leading-relaxed text-base">Our custom web and application development services include both front-end and back-end development. Whether it is enhancing an existing application or architecting an enterprise application or website, our developers are up for the challenge.</p>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="p-4 md:w-1/3 flex">
+                    <div
+                        class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4 flex-shrink-0">
+                    </div>
+                    <div class="flex-grow pl-6">
+                        <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Support & Maintenance</h2>
+                        <p class="leading-relaxed text-base">Part of our custom web development services includes on-going support and maintenance. Our process enables us to review all webpages, health checks, and even optimization to provide you with the best opportunity to gain additional incremental traffic.</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <!-- ---footer--- -->
+
+    <div class="footer-clean">
+        <footer>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Web design</a></li>
+                            <li><a href="#">Development</a></li>
+                            <li><a href="#">Android Apps</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="/">KnightCoders</a></li>
+                            <li><a href="about.html">Our Team</a></li>
+                            <li><a href="">Legacy</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="col-lg-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
+                        <p class="copyright">KnightCoders © 2021</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0px"
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+
+</body>
+
+</html>
